@@ -24,6 +24,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+# Font-Awesome SASS gem for use in Ruby projects
+gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
+# bootstrap-sass extras.
+gem 'bootstrap-sass-extras', '~> 0.0.2'
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
