@@ -30,6 +30,8 @@ gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
 gem 'bootstrap-sass-extras', '~> 0.0.2'
 # Flexible authentication solution for Rails with Warden
 gem 'devise', '~> 4.2'
+# Forms made easy!
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -53,3 +55,7 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  gem 'rails_12factor', '~> 0.0.3'
+  gem 'pg', '~> 0.19.0'
+end
